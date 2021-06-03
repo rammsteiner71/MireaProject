@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_browser"
+            android:title="Brouser" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:title="Calculator" />
+        <item
+            android:id="@+id/simplePlayer"
+            android:title="Player" />
+        <item
+            android:id="@+id/sensors"
+            android:title="Accelerometr"/>
+        <item
+            android:id="@+id/camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/audioRecorder"
+            android:title="Audio Recorder" />
+        <item
+            android:id="@+id/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/stories"
+            android:title="Stories" />
+        <item
+            android:id="@+id/mapMirea"
+            android:title="Mirea Map" />
+    </group>
+</menu>

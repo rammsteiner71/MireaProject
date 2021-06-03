@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.kachalov.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.kachalov.mireaproject.nav_calculator"
+        android:label="fragment_nav_calculator"
+        tools:layout="@layout/fragment_nav_calculator" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.kachalov.mireaproject.nav_browser"
+        android:label="fragment_nav_browser"
+        tools:layout="@layout/fragment_nav_browser" />
+    <fragment
+        android:id="@+id/simplePlayer"
+        android:name="ru.mirea.kachalov.mireaproject.simplePlayer"
+        android:label="fragment_simple_player"
+        tools:layout="@layout/fragment_simple_player" />
+    <fragment
+        android:id="@+id/sensors"
+        android:name="ru.mirea.kachalov.mireaproject.sensors"
+        android:label="fragment_sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/camera"
+        android:name="ru.mirea.kachalov.mireaproject.Camera"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/audioRecorder"
+        android:name="ru.mirea.kachalov.mireaproject.AudioRecorder"
+        android:label="fragment_audio_recorder"
+        tools:layout="@layout/fragment_audio_recorder" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="ru.mirea.kachalov.mireaproject.settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/stories"
+        android:name="ru.mirea.kachalov.mireaproject.stories"
+        android:label="fragment_stories"
+        tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/mapMirea"
+        android:name="ru.mirea.kachalov.mireaproject.MapMirea"
+        android:label="fragment_map_mirea"
+        tools:layout="@layout/fragment_map_mirea" />
+
+</navigation>
